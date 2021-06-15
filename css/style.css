@@ -1,0 +1,11 @@
+body{
+	background-color: #E7E9EB;
+}
+
+.bg{
+	background-color: red;
+	min-height: 20px;
+}
+span{
+	color: blue;
+}

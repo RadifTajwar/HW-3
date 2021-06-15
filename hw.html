@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>First Project</title>
+	<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>SSB-358 Full Stack Web Development online 35</h1>
+
+<h1>HW of SSB-358</h1><br>
+<h2 style="text-align: center;">
+	Last 50 tags of w3school.
+</h2>
+
+
+<h2>(1) noscript</h2>
+<p> The <code>noscript</code> tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.</p>
+<h4>Example:</h4>
+<p> 
+
+<noscript>Your browser does not support JavaScript!</noscript></p>
+
+<h2>(2) object</h2>
+<p> The <code>object</code> tag defines a container for an external resource.</p>
+<h4>Example:</h4>
+<p> <object data="images/radif.jpg" width="10%" ></object></p>
+
+<h2>(3) optgroup</h2>
+<p> The <code>optgroup</code> tag is used to group related options in a select element (drop-down list)</p>
+<h4>Example:</h4>
+<p> <form >
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form></p>
+
+<h2>(4) option</h2>
+<p>The <code>option</code> tag defines an option in a select list. </p>
+<h4>Example:</h4>
+<p> <select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+  </p>
+
+<h2>(5) output</h2>
+<p> The <code>output</code> tag is used to represent the result of a calculation (like one performed by a script).</p>
+<h4>Example:</h4>
+<p><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form> </p>
+
+<h2>(6) p</h2>
+<p>The  <code>p</code> tag defines a paragraph. </p></p>
+<h4>Example:</h4>
+ <p>This is some text in a paragraph.</p>
+
+<h2>(7) param</h2>
+<p> The <code>param</code> tag is used to define parameters for an object element.</p>
+<h4>Example:</h4>
+
+  <object data="audio/videoplayback.mp3">
+  <param name="autoplay" value="true">
+</object>
+
+
+<h2>(8) pre</h2>
+<p> The <code>pre</code> tag defines preformatted text.</p>
+<h4>Example:</h4>
+<p> </p>
+
+<h2>(9) </h2>
+<p> </p>
+<h4>Example:</h4>
+<p> </p>
+
+<h2>(10) </h2>
+<p> </p>
+<h4>Example:</h4>
+<p> <pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre></p>
+
+<h2>(11) progress</h2>
+<p> The <code>progress</code> tag represents the completion progress of a task.</p>
+<h4>Example:</h4>
+<p> <label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress></p>
+
+<h2>(12) q</h2>
+<p> The <code>q</code> tag defines a short quotation.</p>
+<h4>Example:</h4>
+ <p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<h2>(13) rp</h2>
+<p>The <code>rp</code> tag can be used to provide parentheses around a ruby text, to be shown by browsers that do not support ruby annotations. </p>
+<h4>Example:</h4>
+<p> <ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby></p>
+
+<h2>(14) rt</h2>
+<p> The <code>rt</code> tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.</p>
+<h4>Example:</h4>
+<p> <ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby></p>
+
+<h2>(15) ruby</h2>
+<p> The <code>ruby</code> tag specifies a ruby annotation.</p>
+<h4>Example:</h4>
+<p> <ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby></p>
+
+<h2>(16) s</h2>
+<p>The <code>s</code> tag specifies text that is no longer correct, accurate or relevant. </p>
+<h4>Example:</h4>
+<p><s>Only 50 tickets left!</s></p>
+<p>SOLD OUT!</p>
+
+<h2>(17) sample</h2>
+<p> The <code>samp</code> tag is used to define sample output from a computer program. </p>
+<h4>Example:</h4>
+<p> <p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p></p>
+
+<h2>(18) section</h2>
+<p> The <code>section</code> tag defines a section in a document.</p>
+<h4>Example:</h4>
+<p> <section class="bg">
+  Radif Tajwar
+</section></p>
+
+<h2>(19) select</h2>
+<p> The <code>select</code> element is used to create a drop-down list.</p>
+<h4>Example:</h4>
+<p> <label for="cars">Choose a subject:</label>
+
+<select name="subject" id="subject">
+  <option value="science">science</option>
+  <option value="commerce">commerce</option>
+  <option value="arts">arts</option>
+ 
+</select></p>
+
+<h2>(20) small</h2>
+<p> The <code>small</code> tag defines smaller text (like copyright and other side-comments).</p>
+<h4>Example:</h4>
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small> </p>
+
+<h2>(21) source</h2>
+<p> The <code>source</code> tag is used to specify multiple media resources for media elements, such as video, audio, and picture.</p>
+<h4>Example:</h4>
+<p> </p>
+
+<h2>(22) span</h2>
+<p> The <code>span</code> tag is an inline container used to mark up a part of a text, or a part of a document.</p>
+<h4>Example:</h4>
+ <p>My mother has <span >blue</span> eyes.</p>
+
+<h2>(23) strong</h2>
+<p> The <code>strong</code> tag is used to define text with strong importance.</p>
+<h4>Example:</h4>
+<p> <strong>This text is important!</strong></p>
+
+<h2>(24)style</h2>
+<p> The <code>style</code> tag is used to define style information (CSS) for a document.</p>
+<h4>Example:</h4>
+<p> <h1 style="text-decoration: underline;">A heading</h1>
+</p>
+
+<h2>(25) sub,sup</h2>
+<p> The <code>sub</code> tag defines subscript text.<br>
+The <code>sup</code> tag defines superscript text.
+</p>
+<h4>Example:</h4>
+<p>This text contains <sub>subscript</sub> text.<br>
+This text contains <sup>superscript</sup> text.
+ </p>
+
+<h2>(26) summary</h2>
+<p> The <code>summary</code> tag defines a visible heading for the details element.</p>
+<h4>Example:</h4>
+<p> <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details></p>
+
+<h2>(27) svg</h2>
+<p> The <code>svg</code> tag defines a container for SVG graphics.</p>
+<h4>Example:</h4>
+<p> <svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg></p>
+
+<h2>(28) table</h2>
+<p> The <code>table</code> tag defines an HTML table.</p>
+<h4>Example:</h4>
+<p> <table border="1px ">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table></p>
+
+<h2>(29) thead,tbody,tfoot</h2>
+<p>The <code>thead</code> tag is used to group header content in an HTML table.<br>
+ The <code>tbody</code> tag is used to group the body content in an HTML table.<br>
+The <code>tfoot</code> tag is used to group footer content in an HTML table.</p>
+<h4>Example:</h4>
+<p> <table border="1px">
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+</p>
+
+<h2>(30) th,tr,td</h2>
+<p>
+The <code>th</code> tag defines a header cell in an HTML table.<br>
+The <code>tr</code> tag defines a row in an HTML table. 
+  <br>The <code>td</code> tag defines a standard data cell in an HTML table.</p>
+<h4>Example:</h4>
+<p> <table border="1px">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table></p>
+
+<h2>(31) textarea</h2>
+<p> The <code>textarea</code> tag defines a multi-line text input control.</p>
+<h4>Example:</h4>
+<p> <label for="w3review">Review of W3Schools:</label>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea></p>
+
+<h2>(32) time</h2>
+<p> The <code>time</code> tag defines a specific time (or datetime).</p>
+<h4>Example:</h4>
+<p> Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+<h2>(33) title</h2>
+<p> The <code>title</code> tag defines the title of the document.</p>
+
+
+<h2>(34) track</h2>
+<p>The <code>track</code> tag specifies text tracks for audio or video elements. </p>
+
+
+<h2>(35) u</h2>
+<p> The <code>u</code> tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text.</p>
+<h4>Example:</h4>
+<p> This is some <u>mispeled</u> text.</p>
+
+<h2>(36) var</h2>
+<p> The <code>var</code> tag is used to defines a variable in programming or in a mathematical expression.</p>
+<h4>Example:</h4>
+<p> The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+<h2>(37) video</h2>
+<p> The <code>video</code> tag is used to embed video content in a document, such as a movie clip or other video streams.</p>
+<h4>Example:</h4>
+<p> <video width="320" height="240" controls>
+  <source src="video/tb.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+</p>
+
+<h2>(38) wb</h2>
+<p> The <code>wbr</code> (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.</p>
+<h4>Example:</h4>
+<p> This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+<br><br><br><br>
+<h2 style="text-align: center;">
+  Some boolean attribute
+</h2>
+<br><br><br><br><br>
+<h2>(1)allowfullscreen </h2>
+<p>allowfullscreen is an HTML attribute for the iframe tag. It enables videos from various sources to be displayed in fullscreen mode. </p>
+<h4>Example:</h4>
+<p> <iframe src="http://www.youtube.com/embed/xDMP3i36naA" allowfullscreen></iframe></p>
+
+<h2>(2) autofocus</h2>
+<p> The autofocus attribute is a boolean attribute.
+
+When present, it specifies that an input element should automatically get focus when the page loads.</p>
+<h4>Example:</h4>
+<p> <form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit">
+</form></p>
+
+<h2>(3) autoplay</h2>
+<p> The autoplay attribute is a boolean attribute.
+
+When present, the video will automatically start playing.</p>
+<h4>Example:</h4>
+<p> <audio controls autoplay>
+  <source src="audio/videoplayback.mp3" type="audio/mp3">
+
+  Your browser does not support the video tag.
+</audio></p>
+
+<h2>(4) checked</h2>
+<p> The checked attribute is a boolean attribute.
+
+When present, it specifies that an input element should be pre-selected (checked) when the page loads.</p>
+<h4>Example:</h4>
+<p><form >
+  <input type="checkbox" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" name="vehicle3" value="Boat" checked>
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form> </p>
+
+<h2>(5) controls</h2>
+<p> The controls attribute is a boolean attribute.
+
+When present, it specifies that audio/video controls should be displayed.</p>
+
+
+
+<h2>(6) default</h2>
+<p> The default attribute is a boolean attribute.
+
+When present, it specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate.</p>
+
+<h2>(7) disabled</h2>
+<p> The disabled attribute is a boolean attribute.
+
+When present, it specifies that the element should be disabled.</p>
+<h4>Example:</h4>
+<p> <form >
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" disabled><br><br>
+  <input type="submit" value="Submit">
+</form></p>
+
+<h2>(8) novalidate</h2>
+<p> The novalidate attribute is a boolean attribute.When present, it specifies that the form-data (input) should not be validated when submitted.</p>
+<h4>Example:</h4>
+<p> <form  novalidate>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit">
+</form></p>
+
+<h2>(9) hidden</h2>
+<p> The hidden attribute is a boolean attribute.
+
+When present, it specifies that an element is not yet, or is no longer, relevant.</p>
+<h4>Example:</h4>
+<p> <p hidden>This paragraph should be hidden.</p>
+<p>This is a visible paragraph.</p></p>
+
+<h2>(10) ismap</h2>
+<p> The ismap attribute is a boolean attribute.
+
+When present, it specifies that the image is part of a server-side image map (an image map is an image with clickable areas).</p>
+<h4>Example:</h4>
+<p> <a href="" >
+  <img src="images/radif.jpg" alt="radiftajwar"  width="100" height="132" ismap>
+</a></p>
+
+<h2>(11) loop</h2>
+<p> </p>
+<h4>Example:</h4>
+<p> <video width="320" height="240" controls loop>
+  <source src="video/tb.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video></p>
+
+<h2>(12) multiple</h2>
+<p> The multiple attribute is a boolean attribute.
+
+When present, it specifies that multiple options can be selected at once.<br>
+For windows: Hold down the control (ctrl) button to select multiple options</p>
+<h4>Example:</h4>
+<p> <label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select></p>
+
+<h2>(13) muted</h2>
+<p> </p>
+<h4>Example:</h4>
+<p> 
+<audio controls muted>
+  <source src="audio/videoplayback.mp3" type="audio/mp3">
+  
+  Your browser does not support the audio element.
+</audio></p>
+
+<h2>(14) open</h2>
+<p>The open attribute is a boolean attribute.
+
+When present, it specifies that the details should be visible (open) by default. </p>
+<h4>Example:</h4>
+<p> <details open>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details></p>
+
+<h2>(15) readonly</h2>
+<p>The readonly attribute is a boolean attribute.
+
+When present, it specifies that an input field is read-only. </p>
+<h4>Example:</h4>
+<p> <form >
+  <label for="country">Country:</label>
+  <input type="text" id="country" name="country" value="Norway" readonly><br><br>
+  <input type="submit" value="Submit">
+</form></p>
+
+<h2>(16) required</h2>
+<p> The required attribute is a boolean attribute.
+
+When present, it specifies that an input field must be filled out before submitting the form.</p>
+<h4>Example:</h4>
+<p> <form >
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <input type="submit">
+</form></p>
+
+<h2>(17) reversed</h2>
+<p> The reversed attribute is a boolean attribute.
+
+When present, it specifies that the list order should be descending (9,8,7...), instead of ascending (1, 2, 3...).</p>
+<h4>Example:</h4>
+<p> <ol reversed>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol></p>
+
+<h2>(18) selected</h2>
+<p> The selected attribute is a boolean attribute.
+
+When present, it specifies that an option should be pre-selected when the page loads.</p>
+<h4>Example:</h4>
+<p><select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="vw">VW</option>
+  <option value="audi" selected>Audi</option>
+</select> </p>
+<br><br><br>
+<h2 style="text-align:center;">Sementic & Non Sementic markup</h2>
+<br><br><br>
+<img src="images/Sementic.png">
+</body>
+</html>
